@@ -45,7 +45,7 @@ l 3 4
 Note that indexing starts with 1 in OBJ files, so remember to shift indices accordingly.
 
 
-Ex.1: Convex Hull
+Ex.1: Convex Hull [5pt]
 -----------------
 
 ### Description
@@ -86,7 +86,7 @@ Each `TODO` in the provided code corresponds to part that you need to fill to co
 4. Complete the function to read .xyz from a file. While it is perfectly fine to use C's `printf()` and `scanf()` functions in C++, the idiomatic way to read/write data is to use `std::iostream<>`, which provides additional type-safety compared to C's equivalent.
 
 
-Ex.2: Point In Polygon
+Ex.2: Point In Polygon [5pt]
 ----------------------
 
 ### Description
