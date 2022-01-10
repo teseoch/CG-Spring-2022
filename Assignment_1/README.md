@@ -1,4 +1,4 @@
-Introduction to C++ and Basic Geometry
+Introduction to C++ and Basic Geometry [Optional]
 ======================================
 
 The goal of this first assignment is to get familiar with CMake and C++ by implementing two basic algorithms in geometry.
