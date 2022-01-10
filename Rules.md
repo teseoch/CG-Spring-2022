@@ -5,7 +5,7 @@ General Rules
 Plagiarism Note and Late Submissions
 ------------------------------------
 
-Copying code (either from other students or from external sources) is strictly prohibited. We will be using automatic anti-plagiarism tools, and any violation of this rule will lead to expulsion from the class.
+Copying code (either from other students or from external sources) is strictly prohibited. We will be using automatic anti-plagiarism tools, and any violation of this rule will lead to expulsion from the class. Late assigments will be graded out of 70%.
 
 
 Provided Software
