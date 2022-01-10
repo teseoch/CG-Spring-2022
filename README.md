@@ -63,10 +63,12 @@ By the end of the course, the students will design, program, and analyze algorit
 ## Slides
 
 [01 Introduction](slides/01%20-%20Introduction%20to%20Computer%20Graphics.pdf)</br>
+[02 Linear Algebra](slides/02%20-%20Basic%20to%20Linear%20Algebra.pdf)</br>
+[03 C++](slides/03%20-%20C++.pdf)</br>
 
 ## Assignments
 
-[Rules](Rules.md)
+[Rules](RULES.md)
 
 [Assigment 1](Assignment_1/README.md)
 
