@@ -7,7 +7,7 @@ In the second exercise, you will implement a function to test whether a point is
 
 ### Preparing the Environment
 
-Follow instructions the [generale rules](../RULES.md) to setup what you need for the assignment. You can also install [Meshlab](http://www.meshlab.net/) to visualize the datasets (point cloud and polygons) that you will be using in this assignment.
+Follow instructions the [generale rules](../Rules.md) to setup what you need for the assignment. You can also install [Meshlab](http://www.meshlab.net/) to visualize the datasets (point cloud and polygons) that you will be using in this assignment.
 
 ##### Complex Numbers
 
