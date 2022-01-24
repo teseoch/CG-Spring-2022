@@ -7,7 +7,12 @@
 
 [teseo@uvic.ca](mailto:teseo@uvic.ca)
 
-<!-- Office Hours: Wednesdays, 4pm-5pm ECS 612 or by appointment -->
+### Office Hours: 
+Tue 11am-12pm ECS 612 
+
+Thu 2pm-3pm ECS 612 
+
+by appointment
 
 ### Lectures:
 11:30am - 12:50pm MTh
