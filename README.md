@@ -7,10 +7,10 @@
 
 [teseo@uvic.ca](mailto:teseo@uvic.ca)
 
-### Office Hours: 
-Tue 11am-12pm ECS 612 
+### Office Hours:
+Tue 11am-12pm ECS 612
 
-Thu 2pm-3pm ECS 612 
+Thu 2pm-3pm ECS 612
 
 by appointment
 
@@ -78,4 +78,5 @@ By the end of the course, the students will design, program, and analyze algorit
 [Rules](Rules.md)
 
 [Assigment 1](Assignment_1/README.md)
+[Assigment 2](Assignment_2/README.md)
 
