@@ -72,6 +72,7 @@ By the end of the course, the students will design, program, and analyze algorit
 [03 C++](slides/03%20-%20C%2B%2B.pdf)</br>
 [04 Images](slides/04%20-%20Images.pdf)</br>
 [05 Ray Tracing](slides/05%20-%20Ray%20Tracing.pdf)</br>
+[06 Spatial Data Structures](slides/06%20-%20Spatial%20Data%20Structures.pdf)</br>
 
 ## Assignments
 
