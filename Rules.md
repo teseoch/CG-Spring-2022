@@ -15,6 +15,8 @@ For this class, you will use the minimal framework provided with each assignment
 
 ### Preparing the Build Environment
 
+If you are on windows, follow these [detailed instructions](Windows.md).
+
 The assignments will use CMake as a build system. Before we can begin, you must install CMake on your computer.
 I recommend installing it with a package manager instead of the [CMake download page](http://www.cmake.org/download/). E.g. on Debian/Ubuntu: `sudo apt-get install cmake`, with HomeBrew on Mac: `brew install cmake`, and on Windows with [Chocolatey](https://chocolatey.org/): `choco install -y cmake`.
 
