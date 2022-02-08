@@ -40,9 +40,6 @@ Each `TODO` in the provided code corresponds to a part that you need to fill to 
 6. Modify the ray equation for perspective projection.
 7. Compare the difference in the result for a sphere for a parallelogram (you can also create a scene with multiple objects).
 
-The output should look like this
-![](img/plane_perspective.png)
-
 
 Ex.2: Shading [10pt]
 -------------
