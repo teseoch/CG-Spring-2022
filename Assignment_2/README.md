@@ -32,11 +32,16 @@ Each `TODO` in the provided code corresponds to a part that you need to fill to 
 3. Calculate the intersection between the ray and the parallelogram using the function defined above.
 4. Compute the normal of that intersection point.
 
+
+
 #### Ray Tracing with Perspective Projection [8pt]
 
 5. Modify the ray-sphere intersection to follow the generic case we saw in class.
 6. Modify the ray equation for perspective projection.
 7. Compare the difference in the result for a sphere for a parallelogram (you can also create a scene with multiple objects).
+
+The output should look like this
+![](img/plane_perspective.png)
 
 
 Ex.2: Shading [10pt]
@@ -70,3 +75,16 @@ If you run the code provided in this assignment, it should produce the following
 ![](img/sphere.png?raw=true)
 
 Tip: if you are using VSCode you can open the png in a tab, and it will automatically refresh every time the png is updated.
+
+
+Sample output
+-------------
+
+Using the provided parameters, the parallelogram with orthographic projection should look like this
+![](img/plane_orthographic.png)
+
+Using the provided parameters, the parallelogram with perspective projection should look like this
+![](img/plane_perspective.png)
+
+Using the provided parameters, the sphere with perspective projection and colors should look like this
+![](img/shading.png)
