@@ -22,7 +22,7 @@ using namespace Eigen;
 const std::string filename("raytrace.png");
 
 //Camera settings
-const double focal_length = 5;
+const double focal_length = 10;
 const double field_of_view = 0.7854; //45 degrees
 const double image_z = 5;
 const bool is_perspective = false;
