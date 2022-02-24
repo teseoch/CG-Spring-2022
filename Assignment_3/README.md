@@ -21,6 +21,12 @@ Ex 0: Implement the intersection code [5pt]
 
 Fill the functions `ray_sphere_intersection` and `ray_parallelogram_intersection` with the correct intersection between the ray and the primitives.
 
+Output with sphere intersection
+![](img/sphere.png)
+
+Output with sphere and plane intersection
+![](img/sphere-plane.png)
+
 
 Ex 1: Field of View and Perspective Camera [5pt]
 ------------------------------------------
@@ -29,8 +35,15 @@ Ex 1: Field of View and Perspective Camera [5pt]
 
 The field of view of a perspective camera represents the angle formed between the camera's center and the sensor (aka the pixel grid through which rays are shot). The focal length is the distance between the camera center and the sensor and is called `f` in the figure above.
 
-1. Fill the starter code to compute the correct value of `h` (`image_y` in the code).
+1. Fill the starter code to compute the correct value of `h` (`image_y` in the code). You can use the [Law of Sines](https://en.wikipedia.org/wiki/Law_of_sines).
 2. Implement the perspective camera similarly to Assignment 1.
+
+
+Output with correct `image_x` and `image_y`
+![](img/fov-res.png)
+
+Output with correct `image_x` and `image_y` and perspective camera (remember to change `is_perspective` to `true`)
+![](img/prespective.png)
 
 
 Ex.2: Shadow Rays [10pt]
@@ -40,7 +53,8 @@ To determine if a point is in the shadow of another or not, you must cast a ray 
 
 ### Tasks
 
-1. Fill in the starter code to implement shadow rays by implementing the function `is_light_visible`.
+1. Implement the Phong shading
+2. Fill in the starter code to implement shadow rays by implementing the function `is_light_visible`.
 
 
 Ex.3: Reflection [10pt]
