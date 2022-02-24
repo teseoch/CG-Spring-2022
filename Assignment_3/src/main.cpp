@@ -90,7 +90,7 @@ void setup_scene()
     //parallelograms
     parallelograms.emplace_back();
     parallelograms.back() << -100, 100, -100,
-        -1.2, -1.2, -1.2,
+        -1.25, 0, -1.2,
         -100, -100, 100;
 
     //Lights
@@ -199,7 +199,7 @@ double ray_sphere_intersection(const Vector3d &ray_origin, const Vector3d &ray_d
     const Vector3d sphere_center = sphere_centers[index];
     const double sphere_radius = sphere_radii[index];
 
-    double t = 0;
+    double t = -1;
 
     if (false)
     {
