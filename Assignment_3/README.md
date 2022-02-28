@@ -53,8 +53,14 @@ To determine if a point is in the shadow of another or not, you must cast a ray 
 
 ### Tasks
 
-1. Implement the Phong shading
+1. Implement the Phong shading (diffuse and specular color)
 2. Fill in the starter code to implement shadow rays by implementing the function `is_light_visible`.
+
+Output with correct shading
+![](img/phong.png)
+
+Output with shadows
+![](img/shadow.png)
 
 
 Ex.3: Reflection [10pt]
@@ -69,6 +75,9 @@ The direction of the reflected has been given in class and can be expressed as `
 
 1. Fill the starter code to implement reflected rays. Don't forget to decrease the counter to limit the maximum number of 'bounce' a ray can make.
 
+Output with reflections
+![](img/reflections.png)
+
 
 Ex.3: Perlin Noise [10pt]
 -------------------------
@@ -82,6 +91,12 @@ Implement the Perlin noise as explained in class.
 3. Get the correct grid coordinates from the point `x` and `y`
 4. Replace the linear interpolation with a cubic interpolation `(a1 - a0) * (3.0 - w * 2.0) * w * w + a0` and compare the results.
 
+
+Output with linear interpolation
+![](img/perlin-lin.png)
+
+Output with cubic interpolation
+![](img/perlin-cub.png)
 
 Starting Code
 -------------
