@@ -74,6 +74,7 @@ By the end of the course, the students will design, program, and analyze algorit
 [05 Ray Tracing](slides/05%20-%20Ray%20Tracing.pdf)</br>
 [06 Spatial Data Structures](slides/06%20-%20Spatial%20Data%20Structures.pdf)</br>
 [07 Procedural Synthesis](slides/07%20-%20Procedural%20Synthesis.pdf)</br>
+[08 2D Transformations](slides/08%20-%202D%20Transformations.pdf)</br>
 
 ## Assignments
 
