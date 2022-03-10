@@ -75,12 +75,16 @@ By the end of the course, the students will design, program, and analyze algorit
 [06 Spatial Data Structures](slides/06%20-%20Spatial%20Data%20Structures.pdf)</br>
 [07 Procedural Synthesis](slides/07%20-%20Procedural%20Synthesis.pdf)</br>
 [08 2D Transformations](slides/08%20-%202D%20Transformations.pdf)</br>
-[09 Viewing Transformations](slides/08%20-%20Viewing%20Transformations.pdf)</br>
+[09 Viewing Transformations](slides/09%20-%20Viewing%20Transformations.pdf)</br>
+[10 Rasterization Theory](slides/10%20-%20Rasterization%20-%20Theory.pdf)</br>
+[11 Rasterization Implementation](slides/11%20-%20Rasterization%20-%20Implementation.pdf)</br>
 
 ## Assignments
 
 [Rules](Rules.md)
 
 [Assigment 1](Assignment_1/README.md)</br>
-[Assigment 2](Assignment_2/README.md)
+[Assigment 2](Assignment_2/README.md)</br>
+[Assigment 3](Assignment_3/README.md)</br>
+[Assigment 4](Assignment_4/README.md)</br>
 
