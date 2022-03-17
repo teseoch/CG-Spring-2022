@@ -22,6 +22,8 @@ In this exercise you will implement the ray-tracing of a triangle mesh. Without 
 
 1. Fill the starting code to complete the function implementing the intersection of a ray and a triangle. This should be similar to the code you developed for Assignment 2.
 2. Fill the starting code to implement the ray-tracing of a triangle mesh.
+3. Implement the `find_nearest_object` function and remember to return a **boolean** and not the index of the closest triangle.
+4. Implement the correct `image_y` and `image_x`.
 
 Ex.2: AABB Trees [20pt]
 ----------------
