@@ -153,7 +153,6 @@ AABBTree::AABBTree(const MatrixXd &V, const MatrixXi &F)
 
     // TODO
 
-    // Top-down approach.
     // Split each set of primitives into 2 sets of roughly equal size,
     // based on sorting the centroids along one direction or another.
 }
@@ -221,8 +220,6 @@ Vector4d shoot_ray(const Vector3d &ray_origin, const Vector3d &ray_direction)
         const Vector4d &light_color = light_colors[i];
 
         Vector4d diff_color = obj_diffuse_color;
-
-        // TODO: Add shading parameters
 
         // Diffuse contribution
         const Vector3d Li = (light_position - p).normalized();
