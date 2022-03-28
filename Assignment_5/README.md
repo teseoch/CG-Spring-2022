@@ -11,18 +11,20 @@ Have a look at the [Getting Started](http://eigen.tuxfamily.org/dox/GettingStart
 ### Preparing the Environment and Submission
 
 Follow the instructions on the [general instructions page](../RULES.md) to set up what you need for the assignment.
+For all exercises, all transformations **must** be applied in the shaders.
 
 
 Ex.1: Load and Render a 3D model [20pt]
 ------------------
 
-The provided code rasterizes a triangle using the software rasterizer we studied in the class. Extend the provided code to load the same scenes used in Assignment 4, and render them using rasterization in a uniform color. At this stage, you should see a correct silhouette of the object rendered. The cameras should take into account the size of the framebuffer, properly adapting the aspect ratio to not distort the image whenever the framebuffer is resized. To check for correctness, we recommend to render a cube in wireframe mode.
+The provided code rasterizes a triangle using the software rasterizer we studied in the class. Extend the provided code to load the same scenes used in Assignment 4, and render them using rasterization in a uniform color. At this stage, you should see a correct silhouette of the object rendered. The cameras should take into account the size of the framebuffer, properly adapting the aspect ratio to not distort the image whenever the framebuffer is resized. Remember that all transformations **must** be applied in the vertex shader. To check for correctness, we recommend to render a cube in wireframe mode.
 
 1. Build the camera tranformation matrix
 2. Build the Orthographic Projection matrix, see Assignment 3 for computing t and l.
 3. Fill the shaders to rasterize the bunny in red
 
 This is the expected output
+
 ![](img/orthographic/simple.png)
 
 Ex.2: [5pt]
@@ -31,6 +33,7 @@ Ex.2: [5pt]
 Render the bunny using a wireframe; only the edges of the triangles are drawn.
 
 This is the expected output
+
 ![](img/orthographic/wireframe.png)
 
 
@@ -54,20 +57,21 @@ Note that to perform flat shading, you will need to send per-face normal attribu
 To compute the per-vertex normals you should first compute the per-face normals, and then average them on the neighboring vertices. In other words, the normal of the vertex of a mesh should be the average of the normals of the faces touching it. Remember to normalize the normals after averaging.
 
 This is the expected for flat shading
+
 ![](img/orthographic/flat_shading.png)
 
 This is the expected for vertex shading
+
 ![](img/orthographic/pv_shading.png)
 
 
 Ex.3: Object Transformation [20pt]
 ----------------------------------
 
-For this exercise and the next, all transformations **must** be done in the vertex shader.
-
-Add an option to rotate the object around the y-axis centered on its barycenter. Produce 3 gif videos, one for each rendering type used above (i.e., wireframe, flat, and vertex).
+Add an option to rotate the object around the y-axis centered on its barycenter, all transformations **must** be applied in the shaders. Produce 3 gif videos, one for each rendering type used above (i.e., wireframe, flat, and vertex).
 
 This is the expected animation for flat shading
+
 ![](img/orthographic/bunny.gif)
 
 
@@ -78,9 +82,11 @@ Implement a *perspective camera*. Note that for the shading to be correct, the l
 
 
 This is the expected for flat shading and perspective camera
+
 ![](img/perspective/flat_shading.png)
 
 This is the expected for vertex shading and perspective camera
+
 ![](img/perspective/pv_shading.png)
 
 
